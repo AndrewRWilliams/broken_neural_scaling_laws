@@ -17,4 +17,4 @@ To reproduce the Decomposition of BNSL into Power Law Segments from Figure 1, ru
 ```python make_figure_1__decomposition_of_bnsl_into_power_law_segments.py ```
 
 
-When you try fit a BNSL to your own scaling data, you probably will need to play around with the grid search range and resolution to get a good fit.
+When you fit a BNSL to your own scaling data, you probably will need to play around with the grid search range and resolution to get a good fit.
