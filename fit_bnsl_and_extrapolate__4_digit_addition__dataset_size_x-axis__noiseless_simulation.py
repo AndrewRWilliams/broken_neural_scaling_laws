@@ -62,7 +62,8 @@ if __name__ == '__main__':
     plt.plot(x2, y2, 'o', color=[0.0, 0.925, 0.0])
     plt.plot(x1, y1, 'o', color='black')
 
-    # this range can be made as wide as you want and extrapolation will be the same, but grid search will run slower on a laptop if made wider
+    # grid search range and resolution.
+    # this range can be made as wide as you want and extrapolation will be the same, but grid search will run slower on a laptop if made wider.
     p_grid = (slice(0.0, 2.5, .1), slice(0, 5, .25), slice(0, .2, 0.05), slice(0, 8, 0.5), slice(0, 35, 2.5), slice(0, .2, 0.05))
 
     start = time.time()
