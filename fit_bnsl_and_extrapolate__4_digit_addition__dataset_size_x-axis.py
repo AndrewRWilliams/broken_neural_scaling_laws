@@ -57,6 +57,7 @@ if __name__ == '__main__':
     plt.plot(x2, y2, 'o', color=[0.0, 0.925, 0.0])
     plt.plot(x1, y1, 'o', color='black')
 
+    # grid search range and resolution
     p_grid = (slice(0.0, 1., .1), slice(0, 40, 2.5), slice(0, 1, 0.25), slice(0, 1, 0.25), slice(0, 40, 2.5), slice(0, 1, 0.25))
 
     start = time.time()
