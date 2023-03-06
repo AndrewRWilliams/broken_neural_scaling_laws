@@ -92,6 +92,11 @@ if __name__ == '__main__':
     plt.title("4 Digit Addition")
     plt.xlabel("Training Dataset Size")
     plt.ylabel("Test Cross-Entropy")
+    
+    """
+    plt.xscale('log')
+    plt.yscale('log')
+    #"""
 
     plt.xlim(140,983)
     plt.ylim(0,2.5)
