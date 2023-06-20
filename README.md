@@ -26,3 +26,16 @@ To reproduce the Decomposition of BNSL into Power Law Segments from Figure 1, ru
 **When you fit a BNSL to your own scaling data, you may need to adjust the grid search range and resolution to get a good fit.**
 
 🚨🚨🚨
+
+# Here is some bibtex to use for citation: 
+
+```
+@inproceedings{
+caballero2023broken,
+title={Broken Neural Scaling Laws},
+author={Ethan Caballero and Kshitij Gupta and Irina Rish and David Krueger},
+booktitle={The Eleventh International Conference on Learning Representations },
+year={2023},
+url={https://arxiv.org/abs/2210.14891}
+}
+```
