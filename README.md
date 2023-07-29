@@ -2,12 +2,12 @@
 
 Read Appendix A.6 of arXiv version of this paper for more details on what this code does.
 
-To reproduce the Fitting and Extrapolation of BNSL on 4 Digit Addition from Figure 4 Left, run 
+To reproduce the Fitting and Extrapolation of BNSL on 4 Digit Addition from Figure 5 Left, run 
 
 ```python fit_bnsl_and_extrapolate__4_digit_addition__dataset_size_x-axis.py```
 
 
-To reproduce the Fitting and Extrapolation of BNSL on a noiseless simulation of the scaling behavior of 4 Digit Addition from Figure 4 Right, run 
+To reproduce the Fitting and Extrapolation of BNSL on a noiseless simulation of the scaling behavior of 4 Digit Addition from Figure 5 Right, run 
 
 ```python fit_bnsl_and_extrapolate__4_digit_addition__dataset_size_x-axis__noiseless_simulation.py```
 
