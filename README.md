@@ -1,6 +1,6 @@
 # Code Release for "Broken Neural Scaling Laws" (BNSL) paper ([arxiv.org/abs/2210.14891](https://arxiv.org/abs/2210.14891))
 
-Read Appendix A.6 of arXiv version of this paper for more details on what this code does.
+Read Appendix A.6 of arXiv version of this paper for more details on how to use this code.
 
 To reproduce the Fitting and Extrapolation of BNSL on 4 Digit Addition from Figure 5 Left, run 
 
