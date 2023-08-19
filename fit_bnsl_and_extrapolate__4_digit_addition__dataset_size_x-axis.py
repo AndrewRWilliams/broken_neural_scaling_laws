@@ -61,7 +61,7 @@ if __name__ == '__main__':
     p_grid = (slice(0.0, 1., .1), slice(0, 40, 2.5), slice(0, 1, 0.25), slice(0, 1, 0.25), slice(0, 40, 2.5), slice(0, 1, 0.25))
 
     start = time.time()
-    res = scipy.optimize.brute(bnsl_with_1_break__msle_optim, p_grid, args=(x1, y1), full_output=False, finish=None, workers=-1)
+    res = scipy.optimize.brute(bnsl_with_1_break__msle_optim, p_grid, args=(x1, y1), full_output=False, finish=None, Ns=1, workers=-1)
     a, b, c0, c1, d1, f1 = res
     b = 1.25**b - 1 + 1e-8
     d1 = 1.25**d1 - 1 + 1e-8
