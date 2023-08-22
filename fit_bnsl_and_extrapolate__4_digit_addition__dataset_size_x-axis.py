@@ -74,12 +74,12 @@ if __name__ == '__main__':
     points = 4096
     x_tile = np.array([1.01**i * 10**0 for i in range(points)]).astype(float)
 
-    print("a: ", a)
-    print("b: ", b)
-    print("c0: ", c0)
-    print("c1: ", c1)
-    print("d1: ", d1)
-    print("f1: ", f1)
+    print("a =", a)
+    print("b =", b)
+    print("c0 =", c0)
+    print("c1 =", c1)
+    print("d1 =", d1)
+    print("f1 =", f1)
 
     pred = bnsl_with_1_break(x_tile.astype(float), a, b, c0, c1, d1, f1)
     plt.plot(x_tile, pred, color=[1.0, 0.125, 0.125], linewidth=2.5)
